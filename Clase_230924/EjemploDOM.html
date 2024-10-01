@@ -6,13 +6,13 @@
     <title>Ejamplo de DOM</title>
 </head>
 <body>
-    <h1 id="Titulo">Titulo original</h1>
+    <h1 id="titulo">Titulo original</h1>
     <button onclick="cambiartexto()">Cambiar texto</button>
 
     <script>
         function cambiartexto(){
             //accede al elemento con id "titulo" y cambia su texto
-            Document.getElementById('titulo').innerText = "Titulo cambiado usando el DOM";
+            document.getElementById('titulo').innerText = "Titulo cambiado usando el DOM";
         }
     </script>
 </body>
